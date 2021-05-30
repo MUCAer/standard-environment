@@ -1,0 +1,23 @@
+name: C/C++ CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: machineplay/gcc10-standard-env
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: make build dir
+      run: mkdir ./test/build && ce ./test/build
+    - name: cmake CMakeLists
+      run: cmake ..
+    - name: run test case
+      run: ./gctest
+    - name: make clean target
+      run: make clean
