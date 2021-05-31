@@ -38,4 +38,3 @@ docker exec -ti container_name /bin/bash
 - curl  
 - unzip 
 - cmake
-
