@@ -1,7 +1,7 @@
 standard-environment
 ===========
 [![](https://img.shields.io/github/license/MUCAer/standard-environment)](https://github.com/MUCAer/standard-environment/blob/main/LICENSE)
-[![](https://github.com/MUCAer/standard-environment/workflows/Docker-Image-CI/badge.svg)](https://github.com/MUCAer/standard-environment/actions)  
+[![](https://github.com/MUCAer/standard-environment/workflows/Docker-Image-CI/badge.svg)](https://github.com/MUCAer/standard-environment/actions)
 [![Docker-Image-Publish](https://github.com/MUCAer/standard-environment/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/MUCAer/standard-environment/actions/workflows/docker-publish.yml)
 
 # How to use?
