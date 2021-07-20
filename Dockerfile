@@ -8,4 +8,4 @@ RUN /bin/sh -c 'apt update && apt install build-essential bison flex vim make gi
 && cd TarsCpp && mkdir build && cd build && cmake .. && make -j4 && make install'
 WORKDIR /app
 COPY . .
-CMD ["gcc -v"]
+CMD ["sh -c "/bin/bash"]
